@@ -30,7 +30,7 @@ Navigation-Section
   margin: 3em;
 }
 
-.nav-header {
+.nav-head h2 {
   color: #3a3a3a;
   font-size: 24px;
   font-weight: bold;
@@ -61,14 +61,15 @@ Header Section
 header {
   display: flex;
   justify-content: space-between;
-  margin: 5em 3em;
+  padding: 5em 3em;
 }
 
 .header-textside {
   color: #3a3a3a;
+  padding: 1em;
 }
 
-header h1 {
+.header {
   font-size: 52px;
   font-weight: 700;
 }
@@ -267,7 +268,7 @@ header h1 {
     text-align: center;
   }
   .nav-tabs {
-    visibility: hidden;
+    display: none;
   }
   header {
     display: grid;
@@ -275,7 +276,7 @@ header h1 {
     grid-row-gap: 100px;
   }
   .logo-section {
-    visibility: hidden;
+    display: none;
   }
   .gears-section {
     display: inline;
@@ -297,16 +298,16 @@ header h1 {
   }
 }
 
-@media only screen and (min-width: 689px) and (max-width: 992px) {
+@media only screen and (min-width: 690px) and (max-width: 988px) {
   .nav-head {
     text-align: center;
   }
   .nav-tabs {
-    visibility: hidden;
+    visibility: none;
   }
   header {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr, 1fr;
     grid-row-gap: 100px;
   }
   .logo-section {
