@@ -323,14 +323,14 @@ header {
   }
 
   .logo-section {
-    visibility: hidden;
+    visibility: none;
   }
   .header-imageside {
     background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    position: relative;
+    align-items: center;
   }
   .gears-section {
     display: grid;
