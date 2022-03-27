@@ -235,11 +235,10 @@ header {
  Footer Section
  -----------------*/
 
-footer {
+.footer {
   height: 220px;
   width: 100%;
   background-color: #0a0417;
-  margin: 0%;
 }
 
 .footer-elements {
@@ -274,7 +273,7 @@ footer {
   }
   header {
     display: inline-block;
-    padding: 0;
+    padding: 1.5em 0;
   }
   .logo-section {
     display: none;
@@ -304,6 +303,9 @@ footer {
   }
   .see-more-button {
     margin-top: 3em;
+  }
+  .footer {
+    width: 100%;
   }
 }
 
@@ -347,5 +349,8 @@ footer {
   }
   .see-more-button {
     line-height: 8;
+  }
+  .footer {
+    width: 100%;
   }
 }
